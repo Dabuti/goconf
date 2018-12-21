@@ -1,0 +1,2 @@
+# goconf
+Conference tool
