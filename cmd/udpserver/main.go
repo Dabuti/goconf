@@ -1,4 +1,4 @@
-package udpserver
+package main
 
 import (
 	"fmt"

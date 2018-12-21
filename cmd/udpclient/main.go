@@ -1,4 +1,4 @@
-package udpclient
+package main
 
 import (
 	"bufio"
