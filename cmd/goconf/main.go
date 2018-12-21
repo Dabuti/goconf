@@ -1,11 +1,12 @@
 package main
 
 import (
+	"github.com/Dabuti/goconf/camera"
 	"gocv.io/x/gocv"
 )
 
 func main() {
-	webcam, _ := gocv.VideoCaptureDevice(0)
+	webcam, _ := camera.NewWebCam()
 	window := gocv.NewWindow("Hello")
 	img := gocv.NewMat()
 
